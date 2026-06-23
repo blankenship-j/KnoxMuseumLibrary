@@ -1,4 +1,24 @@
 body {
-  background-color: #6698ad;
-  color: white;
+  background-color: FloralWhite;
+  color: Black;
 }
+
+/* nav bar :0 */
+ul.nav-bar {
+  list-style-type: none;
+  margin: o;
+  padding: 0; 
+  overflow: hidden; 
+  background-color: #b7d2dd; 
+  display: block;} 
+
+li.nav-bar {
+  float: left;}
+
+li a {
+  display: block;
+  color: #6698ad; 
+  text-align: center;
+  padding: 10; 
+  text-decoration: none;}
+  
