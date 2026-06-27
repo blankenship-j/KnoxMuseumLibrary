@@ -41,12 +41,28 @@ p a {
   color:#6698ad;}
 
 /* Collapsible textbxes (:0) */
-div.col {
-    display:block;
-    background:#b7d2dd;
-    padding: 5;
-    margin: 30;
-    border-radius: 15px;
-    border-width: 3;
-    color: #6698ad;
+.collapsible {
+  background-color: #b7d2dd;
+  color: #6698ad;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px; 
+}
+
+.active, .collapsible:hover {
+  background-color: #89b1c2;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #b7d2dd;
+  color: #6698ad;
+}
   
