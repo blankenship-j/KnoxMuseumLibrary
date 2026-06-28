@@ -57,6 +57,7 @@ p a {
 
 .active, .collapsible:hover {
   background-color: #89b1c2;
+  border-color: FloralWhite
 }
 
 .content {
