@@ -47,17 +47,14 @@ p a {
   cursor: pointer;
   padding: 18px;
   width: 100%;
-  border-bottom: none;
-  border-top-width: 20px;
-  border-color: FloralWhite;
+  border: none;
   text-align: left;
   outline: none;
-  font-size: 15px; 
+  font-size: 15px;
 }
 
 .active, .collapsible:hover {
   background-color: #89b1c2;
-  border-color: FloralWhite
 }
 
 .content {
@@ -67,6 +64,5 @@ p a {
   transition: max-height 0.2s ease-out;
   background-color: #b7d2dd;
   color: #6698ad;
-  border-color:FloralWhite;
 }
   
