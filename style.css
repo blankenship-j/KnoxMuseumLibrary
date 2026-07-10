@@ -56,7 +56,6 @@ p a {
 
 .active, .collapsible:click {
   background-color: #89b1c2;
-  margin-bottom: -0px;
   margin-top: 30px;
 }
 
@@ -67,5 +66,7 @@ p a {
   transition: max-height 0.2s ease-out;
   background-color: #b7d2dd;
   color: #6698ad;
+  margin-top: -30px;
+  margin-bottom: 30px;
 }
   
