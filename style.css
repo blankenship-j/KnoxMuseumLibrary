@@ -54,7 +54,7 @@ p a {
   margin-bottom: 30px;
 }
 
-.active, .collapsible:hover {
+.active, .collapsible:click {
   background-color: #89b1c2;
   margin-bottom: 0px;
   margin-top:30px;
