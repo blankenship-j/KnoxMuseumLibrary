@@ -54,12 +54,16 @@ p a {
   margin-bottom: 30px;
   margin-left: 30px;
   padding-right: 30px;
+  position: relative;
+  right: 30px;
 }
 
 .active, .collapsible:click {
   background-color: #89b1c2;
   margin-top: 30px;
   margin-left: 30px;
+  position: relative;
+  right: 30px;
 }
 
 .content {
