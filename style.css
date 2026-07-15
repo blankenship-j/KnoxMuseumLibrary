@@ -42,6 +42,7 @@ p a {
 
 /* Collapsible textbxes (:0) */
 .collapsible {
+  padding: 0 18px;
   background-color: #b7d2dd;
   color: #6698ad;
   cursor: pointer;
