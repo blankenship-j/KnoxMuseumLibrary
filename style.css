@@ -40,6 +40,12 @@ div.item {
 p a {
   color:#6698ad;}
 
+/* centering */
+.categories {
+   display: flex;
+    justify-content: center;
+}
+
 /* Collapsible textbxes (:0) */
 .collapsible {
   background-color: #b7d2dd;
@@ -53,8 +59,6 @@ p a {
   margin-left: 10%;
   margin-right: 10%;
   width: 90%;
-  display: flex;
-  justify-content: center;
 }
 
 .active, .collapsible:click {
