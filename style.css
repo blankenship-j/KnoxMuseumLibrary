@@ -40,12 +40,6 @@ div.item {
 p a {
   color:#6698ad;}
 
-/* centering */
-.categories {
-   display: flex;
-    justify-content: center;
-}
-
 /* Collapsible textbxes (:0) */
 .collapsible {
   background-color: #b7d2dd;
