@@ -52,6 +52,7 @@ p a {
   margin-bottom: 30px;
   margin-left: 10%;
   margin-right: 10%;
+  width: 90%;
 }
 
 .active, .collapsible:click {
